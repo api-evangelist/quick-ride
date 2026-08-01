@@ -1,8 +1,24 @@
 aid: quick-ride
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quick-ride.png
 name: Quick Ride
-description: 'Quick Ride is a company surfaced as a portfolio company of prosus-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: mobility. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Quick Ride is an Indian mobility platform offering carpooling, bikepool, and taxi
+  services across major cities including Bangalore, Chennai, Mumbai, Pune, Kochi, NCR, and Chandigarh.
+  Riders book airport, outstation, rental, and local trips across vehicle classes from hatchbacks to
+  luxury SUVs, or share commutes via car and bike pooling to cut cost and congestion. The service is
+  delivered through consumer iOS and Android apps. No public developer program, API documentation, or
+  machine-readable API surface (OpenAPI, AsyncAPI, MCP, SDKs) is published; this profile was surfaced
+  as a portfolio company of prosus-ventures and enriched via live web and DNS/TLS probes.'
 url: https://raw.githubusercontent.com/api-evangelist/quick-ride/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Mobility
+- Ride Sharing
+- Carpooling
+- Bikepool
+- Taxi
+- Transportation
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,12 @@ maintainers:
 common:
 - type: Website
   url: https://quickride.in
+- type: Blog
+  url: https://quickride.in/blog
+- type: DomainSecurity
+  url: security/quick-ride-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
