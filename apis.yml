@@ -43,7 +43,7 @@ modified: '2026-07-20'
 tags:
 - Company
 - Mobility
-- Ridesharing
+- Ride Hailing
 - Carpooling
 - Bikepool
 - Taxi
@@ -58,6 +58,7 @@ tags_raw:
 - Taxi
 - Transportation
 - India
+- Ridesharing
 apis: []
 maintainers:
 - FN: Kin Lane
